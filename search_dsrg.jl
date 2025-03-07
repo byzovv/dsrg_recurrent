@@ -8,7 +8,7 @@ using Kronecker
 
 
 # The parameters of the first graph in the sequence
-# Note: only such parameters must be indicated,
+# Note: only such parameters must be specified,
 # for which there are appropriate adjacency matrices in the input catalog
 first_v = 8
 first_k = 4
