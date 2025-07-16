@@ -2,6 +2,8 @@
 
 The repository contains a Julia program to generate strongly regular digraphs for the algorithm described in the article "V. A. Byzov, I. A. Pushkarev, Explicit construction of infinite families of strongly regular digraphs with parameters $((v+(2^{n+1}-4)t)2^{n-1}, k+(2^n-2)t, t, \lambda, t)$".
 
+**Important note: the program works with the Artelys Knitro library version 14.0. In version 15.0, the mip_method=2 setting was removed.**
+
 The repository contains:
 
 - directory **input** with the adjacency matrix of the first digraphs in the sequences;
